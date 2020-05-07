@@ -1,0 +1,11 @@
+﻿  1712842_1712698_BT02.cpp
+E:\1712698_20192020\hoc ki 2\computer vision\1712842_1712698_BT02\1712842_1712698_BT02\1712842_1712698_BT02.cpp(18,32): warning C4101: 'cmdArguments': unreferenced local variable
+  EdgeDetector.cpp
+E:\1712698_20192020\hoc ki 2\computer vision\1712842_1712698_BT02\1712842_1712698_BT02\EdgeDetector.cpp(45,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\1712698_20192020\hoc ki 2\computer vision\1712842_1712698_BT02\1712842_1712698_BT02\EdgeDetector.cpp(100,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\1712698_20192020\hoc ki 2\computer vision\1712842_1712698_BT02\1712842_1712698_BT02\EdgeDetector.cpp(205,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 210 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  1712842_1712698_BT02.vcxproj -> E:\1712698_20192020\hoc ki 2\computer vision\1712842_1712698_BT02\x64\Release\1712842_1712698_BT02.exe
