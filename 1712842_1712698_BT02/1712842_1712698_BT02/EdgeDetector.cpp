@@ -376,6 +376,6 @@ int EdgeDetector::DetectByCanny(const Mat& sourceImage, Mat& destinationImage)
 
 void EdgeDetector::setThreshold(int low, int high)
 {
-	_lowThreshold = low ;
-	_highThreshold = high;
+	_lowThreshold = low *0.6 ;
+	_highThreshold = high*0.8;
 }
