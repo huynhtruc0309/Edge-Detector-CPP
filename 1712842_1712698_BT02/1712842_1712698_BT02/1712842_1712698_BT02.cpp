@@ -49,12 +49,16 @@ int main(int argc, char* argv[])
 		}
 		else if (strcmp(command, "--canny") == 0)
 		{
+			Mat srcImg2 = imread(inputPath, IMREAD_COLOR);
+			resize(srcImg2, srcImg2, Size(512, 512), 0, 0);
+			
 			int low, hight;
 			low = atoi(argv[3]);
 			hight = atoi(argv[4]);
 			EdgeD.setThreshold(low, hight);
-			isSuccess = EdgeD.DetectByCanny(srcImg, dstImg);
-
+			isSuccess = EdgeD.DetectByCanny(srcImg2, dstImg);
+			resize(dstImg, dstImg, Size(srcImg.cols, srcImg.rows), 0, 0);
+			
 			GaussianBlur(srcImg, srcImg, Size(5, 5), 0);
 			Mat _Canny;
 			Canny(srcImg, _Canny, low, hight, 3);
